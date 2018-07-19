@@ -1,8 +1,26 @@
 {
   "name": "gravel",
   "version": "1.0.0",
+  "description": "A simple command line that allows user to copy the contents of a file",
   "main": "index.js",
+  "bin": "./command.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayush1408/Graveller.git"
+  },
+  "keywords": [
+    "javascript",
+    "copy",
+    "clipboard",
+    "cli",
+    "tool"
+  ],
+  "author": "Aayush Jaiswal <aayushjaiswal0114@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aayush1408/Graveller/issues"
+  },
+  "homepage": "https://github.com/aayush1408/Graveller#readme",
   "dependencies": {
     "clipboardy": "^1.2.3",
     "commander": "^2.16.0"
