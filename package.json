@@ -1,7 +1,7 @@
 {
   "name": "copasty",
-  "version": "1.0.0",
-  "description": "A simple command line tool that allows user to copy the contents of a file to clipboard and paste it to the desired file",
+  "version": "1.0.1",
+  "description": "A simple command line tool that allows user to copy the contents of a file to clipboard and paste it to the desired file using a single command",
   "main": "index.js",
   "preferGlobal": true,
   "bin": {
