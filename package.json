@@ -1,7 +1,7 @@
 {
   "name": "copasty",
   "version": "1.0.0",
-  "description": "A simple command line tool that allows user to copy the contents of a file",
+  "description": "A simple command line tool that allows user to copy the contents of a file to clipboard and paste it to the desired file",
   "main": "index.js",
   "preferGlobal": true,
   "bin": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aayush1408/Graveller.git"
+    "url": "git+https://github.com/aayush1408/Copasty.git"
   },
   "keywords": [
     "javascript",
@@ -21,9 +21,9 @@
   "author": "Aayush Jaiswal <aayushjaiswal0114@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aayush1408/Graveller/issues"
+    "url": "https://github.com/aayush1408/Copasty/issues"
   },
-  "homepage": "https://github.com/aayush1408/Graveller#readme",
+  "homepage": "https://github.com/aayush1408/Copasty#readme",
   "dependencies": {
     "clipboardy": "^1.2.3",
     "commander": "^2.16.0"
