@@ -1,9 +1,12 @@
 {
-  "name": "gravel",
+  "name": "copasty",
   "version": "1.0.0",
-  "description": "A simple command line that allows user to copy the contents of a file",
+  "description": "A simple command line tool that allows user to copy the contents of a file",
   "main": "index.js",
-  "bin": "./command.js",
+  "preferGlobal": true,
+  "bin": {
+    "copasty":"./bin/command.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aayush1408/Graveller.git"

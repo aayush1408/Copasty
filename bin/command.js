@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 const program = require('commander')
-const readFileOf = require('./index')
+const readFileOf = require('../index')
 program
   .version('1.0.0')
-  .description('Copy content to clipboard')
+  .description('Copy content to clipboard and paste to a specific file')
 
 program
-  .command('gravel <pathOfFile>')
-  .alias('g')
+  .command('copy')
+  .arguments('<pathOfFile>')
   .description('Copies the contents of a file')
-  .action((pathOfFile)=>{
+  .action((pathOfFile) => {
     readFileOf(pathOfFile)
-  })  
+  })
 program.parse(process.argv)  
