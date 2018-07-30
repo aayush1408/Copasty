@@ -3,6 +3,7 @@
 
 [![npm](https://img.shields.io/npm/dm/copasty.svg?style=flat-square)](https://www.npmjs.com/package/copasty)
 [![npm](https://img.shields.io/npm/v/copasty.svg?style=flat-square)](https://www.npmjs.com/package/copasty)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fa54fa38100448f292447ba994499414)](https://www.codacy.com/app/aayush1408/Copasty?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=aayush1408/Copasty&amp;utm_campaign=Badge_Grade)
 
 ### Why copasty??
 
