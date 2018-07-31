@@ -1,5 +1,9 @@
 ## Copasty
->A cli tool built on node.js that allows the user to copy the contents of a file to clipboard and paste it to the desired file using a single command, works for both windows(Command prompt) user and linux.
+>A cli tool built on node.js that allows the user to copy the contents of a file to clipboard and paste it to the desired file from clipboard using a single command.
+
+- cross platform
+- works on mac,windows and linux
+- works with Command Prompt
 
 [![npm](https://img.shields.io/npm/dm/copasty.svg?style=flat-square)](https://www.npmjs.com/package/copasty)
 [![npm](https://img.shields.io/npm/v/copasty.svg?style=flat-square)](https://www.npmjs.com/package/copasty)
@@ -7,7 +11,7 @@
 
 ### Why copasty??
 
->Suppose you want to copy the contents of the file and paste it to another file. The process to do the following will be like this
+>Suppose you want to copy the contents of the file and paste it to another file. The process to do the following will be like this (especially in windows)
 
 - Navigate to the file
 - Open it
@@ -24,7 +28,12 @@
 
 
 ### Installation
+
+###### Windows
 ```npm i -g copasty```
+
+###### Linux
+```sudo npm i -g copasty 
 
 ### How to use?
 
