@@ -5,7 +5,7 @@ const readFileOf = require('../index').readFileOf;
 const pasteContent = require('../index').pasteContent;
 
 program
-  .version('1.0.1')
+  .version('1.0.2')
   .description('Copy content to clipboard and paste it to a specific file.')
 
 program
